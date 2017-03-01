@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新窗口打开网址</title>
+    <script type="text/javascript">
+        function newDoucments() {
+            var res = confirm("是否打开新的网址");
+            if (res){
+                var prompt2 = prompt(20);
+                window.open(prompt2,"_blank",'width=200,height=200,menubar=no,toolbar=no, status=no,scrollbars=yes');
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="点击看看" onclick="newDoucments()"/>
+</body>
+</html>
