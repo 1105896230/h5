@@ -3,6 +3,39 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>首页</title>
+		<script>
+			function init(){
+				console.log("init");
+				setInterval("changeImage()",3000)
+				time=setInterval("showAd()",3000)
+			}
+			//书写函数
+			i=0;
+			function changeImage(){
+				i++;
+					console.log("changeImage");
+				document.getElementById("img1").src="../img/"+i+".jpg"
+				if(i==3){
+					i=0;
+				}
+			}
+			function showAd(){
+				var adEle=document.getElementById("img2");
+			    adEle.style.display="block";
+			    clearInterval(time);
+			    time=setInterval("hiddenAd()",3000)
+			}
+			function hiddenAd(){
+				var adEle=document.getElementById("img2");
+			    adEle.style.display="none";
+			    clearInterval(time);
+			    setInterval("showAd()",3000)
+			}
+//			window.onload=function(){
+//				init();
+//			}
+
+		</script>
 		<style>
 			#father{
 				border: 1px solid red;
@@ -91,8 +124,9 @@
 			}
 		</style>
 	</head>
-	<body>
+	<body onload="init()">
 		<div id="father">
+			<img id="img2" src="../img/f001a62f-a49d-4a4d-b56f-2b6908a0002c_g.jpg" width="100%" style="display: none;"/>
 			<!--1.logo部分-->
 			<div id="logo">
 				<div class="top">
@@ -123,7 +157,7 @@
 			</div>
 			<!--3.轮播图部分-->
 			<div id="">
-				<img src="../img/1.jpg" width="100%" />
+				<img id="img1" width="100%" src="../img/1.jpg" />
 			</div>
 			<!--4.最新商品-->
 			<div id="product">
