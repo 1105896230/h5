@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style type="text/css" >
+    div{
+        background-color: red;
+    }
+    p{
+        background-color: blue;
+    }
+
+    div,p{
+        /*将块级元素转换为行内元素 也就无法设置宽高了  */
+        display: inline;
+        width: 500px;
+        height: 500px;
+        background-color: red;
+    }
+    span{
+        display: block;
+        width: 500px;
+        height: 500px;
+        background-color: green;
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+    <!-- 典型代表div,h1-h6,p,ul,li -->
+    <div>123</div>
+    <p>312312</p>
+    <!--行内元素  span a strong em.......  在一行形式，不可以设宽高-->
+
+    <!--行内块元素 input img 在一行形式可以设置宽高 -->
+
+     <div>111</div>
+     <span>sss</span>
+</body>
+</html>
