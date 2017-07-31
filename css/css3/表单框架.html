@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+      <style type="text/css">
+      .username{
+          border: 0 none;
+          /*去掉轮廓线  */
+          outline-style: none;
+          background: #ccc;
+          border: 1px dashed green;
+      }
+      /*获取焦点  */
+      .username:focus{
+          background: red;
+      }
+      .email{
+            border: 0 none;
+          /*去掉轮廓线  */
+          outline-style: none;
+          border-bottom: 1px dotted red;
+      }
+      .password{
+               border: 0 none;
+          /*去掉轮廓线  */
+          outline-style: none;
+          border: 1px solid #999;
+          background: url("search.png");
+          background-repeat: no-repeat;
+          background-position:right;
+      }
+    </style>
+</head>
+<body>
+    <!--label点击获取焦点  -->
+    <label for="username">用户名:</label><input type="text" class="username" id="username"/>
+    邮箱:<input type="email" class="email"/>
+    密码:<input type="password" class="password"/>
+</body>
+</html>
