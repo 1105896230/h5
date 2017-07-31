@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style type="text/css">
+        body,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        .head,
+        .main,
+        .footer {
+            width: 500px;
+        }
+
+        .head {
+            height: 100px;
+            background: #000;
+        }
+
+        .main {
+            background: #eee;
+            margin: 10px 0px;
+           /*出了盒子不要使用  */
+            /* overflow: hidden; */
+        }
+        /*额外标签法 实际是插入div  */
+        .clearfix::after{
+            content:"";
+            display: block;
+            clear: both;
+        }
+        /*兼容ie清除浮动  */
+        .clearfix{
+            zoom: 1;
+        }
+        .content {
+            width: 300px;
+            height: 300px;
+            background: orange;
+            float: left;
+        }
+
+        .slidebar {
+            width: 190px;
+            height: 300px;
+            background: green;
+            margin-left: 10px;
+            float: left;
+        }
+        .footer {
+               height: 100px;
+            background: #000;
+         
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+    </div>
+        
+        <div class="main clearfix">
+            <div class="content">
+
+            </div>
+            <div class="slidebar">
+
+            </div>
+            <!--清除浮动  -->
+        <!-- <div style="clear:both;"></div> -->
+            
+        </div>
+        <div class="footer"></div>
+</body>
+
+</html>
