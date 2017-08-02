@@ -1,0 +1,121 @@
+.site-nav {
+    height: 30px;
+    line-height: 30px;
+    background-color: #f1f1f1;
+}
+
+.site-nav-send,
+.site-nav-right .fore{
+    position:  relative;
+    padding: 0 25px 0 10px;
+}
+.site-nav-send i , .fore i{
+    position: absolute;
+    top: 12px;
+    right: 8px;
+    width:14px;
+    height: 7px;
+    overflow: hidden;
+}
+.site-nav-send s, .fore s{
+    font:400 13px/15px "consolas";
+    position: absolute;
+    top: -7px;
+}
+.site-nav-send:hover{
+    background-color: #fff;
+}
+
+.site-nav-right li{
+    float: left;
+    padding:0 10px;
+}
+.site-nav-right .line{
+    padding: 0px;
+    width: 1px;
+    height:12px;
+    background-color: #DDDDDD;
+    margin-top: 9px;
+}
+.site-nav-right .jd-tel{
+    padding-left: 25px;
+}
+.jd-tel span{
+    position: absolute;
+    width:15px;
+    height:25px;
+    top:5px;
+    left: 6px;
+    background: url("../image/tel.png") no-repeat;
+}
+.topbanner{
+    background-color: aqua;
+}
+.tb{
+    position: relative;
+}
+.close_banner {
+    position: absolute;
+    width: 19px;
+    height:19px;
+    background: url("../image/close-banner.png");
+    top: 5px;
+    right: 5px;
+}
+.close_banner:hover {
+    background-position: bottom;
+}
+
+.search-logo{
+    float: left;
+    width:362px;
+    height:60px;
+    padding: 20px 0;
+}
+.search-logo a{
+    float: left;
+    width: 270px;
+    height: 60px;
+    display: block;
+    text-indent: -9999em;
+    background: url("../image/logo.png") no-repeat;
+}
+.search-input{
+    float: left;
+    width:538px;
+    height:36px;
+    padding-top: 25px;
+}
+.search-input input{
+    float: left;
+    width: 450px;
+    height: 32px;
+    padding-left: 4px;
+    border: 2px solid #B61D1D;
+    border-right: 0;;
+    color:rgb(153,153,153);
+    font:400 14px/32px "microsoft yahei";
+}
+.search-input button{
+    width: 82px;
+    height: 36px;
+    background: #B61D1D;
+    color: #ffffff;
+    cursor: text;
+    font:400 16px/36px "microsoft yahei";
+}
+.search-car{
+    float: right;
+    width:139px;
+    height:34px;
+    margin: 25px 65px 0 0;
+    border: 1px solid #DFDFDF;
+    background-color: #F9F9F9;
+}
+.search-moreAlink{
+    float: left;
+    width:538px;
+    height:28px;
+    background-color: blue;
+}
+
