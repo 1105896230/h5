@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+            width:300px;
+            height:226px;
+            margin: 200px auto;
+            /*透视*/
+            perspective: 500px;
+        }
+        .box img{
+            transition: transform, 2s;
+        }
+        .box:hover img{
+            transform: translateZ(300px);
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <img src="image/x.jpg">
+</div>
+</body>
+</html>

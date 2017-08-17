@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 100px auto;
+            /*infinite 无限次 alternate反向*/
+            /*animation: move 2s infinite alternate linear 1s;*/
+            animation: move2 2s  alternate linear 1s forwards;
+            background-color: red;
+        }
+
+        @keyframes move {
+            from {
+                transform: translateX(0px);
+            }
+            to {
+                transform: translateX(500px);
+            }
+        }
+
+        @keyframes move2 {
+            0% {
+                transform: translateX(0px) translateY(0px);
+                border-radius: 0%;
+            }
+            75% {
+                transform: translateX(500px) translateY(500px);
+                border-radius: 50%;
+
+            }
+            100% {
+                transform: translateX(500px) translateY(0px);
+                border-radius: 0%;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>
