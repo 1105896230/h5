@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .box{
+                width: 500px;
+            height: 500px;
+            border: 30px solid pink;
+            margin: 100px auto;
+            padding: 30px;
+            background: url("../image/baby0.jpg") no-repeat;
+            /*background-size: 500px 500px;*/
+            /*background-size: 50% 50%;*/
+            /* cover 保证覆盖盒子，但不保证完全显示，会超出，contain 等比例放大，一个到边际就不在放大*/
+             /*background-size: cover;*/
+            /* 背景原点，从内容开始 还是padding 开始*/
+            background-origin: border-box;
+
+            /*背景裁剪 从哪一块开始裁剪*/
+            background-clip: padding-box;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box"></div>
+</body>
+</html>

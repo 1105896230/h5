@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS 边框</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #F7F7F7;
+        }
+
+        img {
+            display: block;
+        }
+
+        .items {
+            width: 800px;
+            height: 260px;
+            padding-left: 20px;
+            margin: 100px auto;
+        }
+
+        .item {
+            width: 225px;
+            height: 250px;
+            float: left;
+            background-color: #ffffff;
+            margin-right: 20px;
+            position: relative;
+            box-shadow: 3px 3px 3px 3px  black ;
+        }
+
+      .item>img{
+          width:100%;
+          height: 113px;
+      }
+        .item a{
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 4px solid #ffffff;
+            overflow: hidden;
+            top:74px;
+            left:50%;
+            margin-left: -44px;
+        }
+    </style>
+</head>
+<body>
+<div class="items">
+    <div class="item">
+        <img src="image/item_1.jpg">
+            <a href="javascript" class="logo">
+                <img src="image/logo_1.jpg">
+            </a>
+    </div>
+    <div class="item">
+        <img src="image/item_2.jpg">
+        <a href="javascript" class="logo">
+            <img src="image/logo_2.jpg">
+        </a>
+    </div>
+    <div class="item">
+        <img src="image/item_3.jpg">
+        <a href="javascript" class="logo">
+            <img src="image/logo_3.jpg">
+        </a>
+    </div>
+</div>
+</body>
+</html>
