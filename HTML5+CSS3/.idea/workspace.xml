@@ -14,41 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="过渡.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css-02/动画/过渡.html">
+      <file leaf-file-name="扑克牌.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css-02/动画/扑克牌.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="圆角.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css-02/圆角.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="小米.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css-02/过度/小米.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="小火箭.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css-02/动画/小火箭.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+            <state relative-caret-position="185">
+              <caret line="88" column="32" lean-forward="true" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -92,6 +62,9 @@
         <option value="$PROJECT_DIR$/css-02/过度/小米.html" />
         <option value="$PROJECT_DIR$/css-02/动画/过渡.html" />
         <option value="$PROJECT_DIR$/css-02/动画/小火箭.html" />
+        <option value="$PROJECT_DIR$/css-02/动画/360盾牌.html" />
+        <option value="$PROJECT_DIR$/css-02/image/扑克牌.html" />
+        <option value="$PROJECT_DIR$/css-02/动画/扑克牌.html" />
       </list>
     </option>
   </component>
@@ -138,6 +111,12 @@
               <item name="HTML5+CSS3" type="b2602c69:ProjectViewProjectNode" />
               <item name="HTML5+CSS3" type="462c0819:PsiDirectoryNode" />
               <item name="css-02" type="462c0819:PsiDirectoryNode" />
+              <item name="image" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HTML5+CSS3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HTML5+CSS3" type="462c0819:PsiDirectoryNode" />
+              <item name="css-02" type="462c0819:PsiDirectoryNode" />
               <item name="动画" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -163,6 +142,9 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\h5\HTML5+CSS3\css-02\动画" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\h5\HTML5+CSS3\css-02\image" />
       <recent name="E:\workspace\h5\HTML5+CSS3\css-02\过度" />
@@ -201,12 +183,12 @@
       <workItem from="1502074214771" duration="10000" />
       <workItem from="1502076112207" duration="4025000" />
       <workItem from="1502934873054" duration="6127000" />
-      <workItem from="1502941471632" duration="1459000" />
+      <workItem from="1502941471632" duration="2502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22631000" />
+    <option name="totallyTimeSpent" value="23674000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="629" y="29" width="1400" height="999" extended-state="0" />
@@ -543,8 +525,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css-02/动画/小火箭.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+        <state relative-caret-position="360">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-02/动画/360盾牌.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css-02/动画/扑克牌.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="88" column="32" lean-forward="true" selection-start-line="88" selection-start-column="32" selection-end-line="88" selection-end-column="32" />
           <folding />
         </state>
       </provider>
