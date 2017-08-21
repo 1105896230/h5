@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0">
+    <title>Title</title>
+    <style>
+        a{
+            width:200px;
+            height:200px;
+            display: block;
+            /* 设置点击的颜色*/
+            /*-webkit-tap-highlight-color: orange;*/
+            /* 盒子模型*/
+            /* 保证内容的大小不变*/
+            box-sizing: content-box;
+            /*保证盒子大小不变，内容可能会变*/
+            box-sizing: border-box;
+        }
+
+        input{
+            border:0;
+            width:100px;
+            height:100px;
+            background-color: skyblue;
+            /*移动端 有些浏览器会给input标签添加了 一些特有的标签 比如3d高光*/
+            -webkit-appearance:none;
+        }
+    </style>
+</head>
+<body>
+
+</body>
+<a href="#">ss</a>
+<input type="button" value="我是一个按钮">
+</html>
