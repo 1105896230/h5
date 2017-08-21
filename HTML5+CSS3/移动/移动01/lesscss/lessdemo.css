@@ -1,0 +1,25 @@
+body {
+  background-color: #c91523;
+}
+h3 {
+  background-color: #c91523;
+}
+ul {
+  background-color: #c91523;
+  width: 100px;
+}
+.red {
+  background-color: red;
+  border: 1px solid #eee;
+  color: red;
+}
+body {
+  background-color: red;
+  border: 1px solid #eee;
+  color: red;
+}
+ul {
+  background-color: #ffff00;
+  border: 1px solid #ffff00;
+  color: #ffff00;
+}

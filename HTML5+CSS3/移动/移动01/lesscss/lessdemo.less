@@ -1,0 +1,32 @@
+@jdRed:rgb(201,21,35);
+@minWidth:100px;
+
+body{
+    background-color: @jdRed;
+}
+h3{
+    background-color: @jdRed;
+}
+
+ul{
+    background-color: @jdRed;
+    width: @minWidth;
+}
+
+.red{
+    background-color: red;
+    border: 1px solid #eee;
+    color: red;
+}
+
+.oneColor(@color:orange){
+    background-color: @color;
+    border: 1px solid @color;
+    color: @color;
+}
+body{
+    .red();
+}
+ul{
+    .oneColor(yellow)
+}

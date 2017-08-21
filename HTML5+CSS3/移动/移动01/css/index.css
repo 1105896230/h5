@@ -191,7 +191,6 @@
 }
 .jd_main .main_content:nth-child(1) .content_bottom ul li{
      float: left;
-
     width: 33.33333%;
 }
 .jd_main .main_content:nth-child(1) .content_bottom ul li a{
@@ -218,4 +217,40 @@
 .jd_main .main_content:nth-child(1) .content_bottom ul li p:nth-child(3){
     color: black;
     text-decoration: line-through;
+}
+.jd_main .main_content:nth-child(n+2) .content_top{
+
+ }
+.jd_main .main_content:nth-child(n+2) .content_top span{
+    color: rgb(201,21,35);
+     line-height: 32px;
+    margin-left: 15px;
+    position: relative;
+}
+.jd_main .main_content:nth-child(n+2) .content_top span::before{
+    content: '';
+    position: absolute;
+    height:15px;
+    width: 5px;
+    background-color: rgb(201,21,35);
+    left:-10px;
+    top:8.5px;
+}
+
+.jd_main .main_content:nth-child(n+2) .content_bottom{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul{
+    width: 100%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li{
+    width: 50%;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li a{
+    width: 100%;
+    display: block;
+}
+.jd_main .main_content:nth-child(n+2) .content_bottom ul li a img{
+    width: 100%;
+    display: block;
 }
